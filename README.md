@@ -28,7 +28,7 @@ passport.use(new XboxStrategy({
   },
   
   function(accessToken, profile, done) {
-    User.findOne({ openId: identifier }, function (err, user) {
+    User.findOne({ openId: accessToken }, function (err, user) {
       return done(err, user);
     });
   }
