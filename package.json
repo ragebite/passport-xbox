@@ -1,0 +1,79 @@
+{
+  "_from": "passport-xbox",
+  "_id": "passport-xbox@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-QlxcYwC0GNs8ev0yYJxvsl8UN/Rd5bITDq46CrIIZHxZzl7jd36hCyy9cy/7G29I0LsM4u/bebCbaMmaqkY3yw==",
+  "_location": "/passport-xbox",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "passport-xbox",
+    "name": "passport-xbox",
+    "escapedName": "passport-xbox",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_shasum": "fc11d0d1c5c29b02bf7469ff5c5993bfef2a5616",
+  "_spec": "passport-xbox",
+  "_where": "/data",
+  "author": {
+    "name": "Ragebite d.o.o",
+    "email": "studio@ragebite.com",
+    "url": "http://www.ragebite.com/"
+  },
+  "ava": {
+    "failFast": true,
+    "verbose": true
+  },
+  "bugs": {
+    "url": "http://github.com/ragebite/passport-xbox/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Djordje Stojiljkovic",
+      "email": "djordjestojilljkovic@gmail.com",
+      "url": "http://github.com/unckleg"
+    }
+  ],
+  "deprecated": false,
+  "description": "Xbox Live authentication strategy for Passport.",
+  "devDependencies": {
+    "passport": "^0.3.2"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://github.com/ragebite/passport-xbox#readme",
+  "keywords": [
+    "passport",
+    "xbox",
+    "auth",
+    "authn",
+    "authentication",
+    "identity",
+    "passport-xbox"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/index.js",
+  "name": "passport-xbox",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ragebite/passport-xbox.git"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
